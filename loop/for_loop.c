@@ -1,13 +1,24 @@
 #include<stdio.h>
+#include<stdlib.h>
 
+//break 
+//continue
+//exit()
 int main(){
-    // For Loop
-        //initlaization , condition, increament
-   int n ;
-   printf("Enter a number: ");
-   scanf("%d",&n);
-   for(int i =0 ; i<=20;i++){
-    printf("%d x %d = %d\n",n, i ,n*i);
-   }
-    return 0;
+//    for(int i =1 ; i<=20;i++){
+//     if( i ==10){
+//         // break;
+//         // continue;
+//     }
+//     printf("Hello World\n %d ",i);
+
+//    }
+        printf("Before Exit function is executed");
+        exit(90);
+
+        printf("After Exit");
+
+        return 0;
+
+
 }
